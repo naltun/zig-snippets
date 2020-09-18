@@ -14,3 +14,17 @@ This document is licensed under the terms of the Creative Commons **Attribution 
 This document is proudly licensed under a Free Culture License. For more information on the Free Culture Movement, please visit
 [Wikipedia](https://en.wikipedia.org/wiki/Free-culture_movement).
 
+# Table of Contents
+
+1. [Main function](#main-function)
+
+## Main function
+
+Here is how the `main()` function is written in zig:
+```zig
+const std = @import("std");
+
+pub fn main() void {
+    std.debug.print("Hello, {}!\n", .{"World"});
+}
+```
