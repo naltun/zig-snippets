@@ -20,6 +20,7 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 1. [Introduction](#introduction)
 * [Arrays](#arrays)
 * [Assignment](#assignment)
+* [Enums](#enums)
 * [Functions](#functions)
 * [Main function](#main-function)
 2. [Strings](#strings)
@@ -53,6 +54,27 @@ var age: i32 = 29;
 
 // Immutable variable
 const num_of_cores: i32 = 4;
+```
+
+## Enums
+
+Here is how to write enums in Zig:
+```zig
+// Simple enum
+const InstructionSet = enum {
+    _6502,
+    x86,
+    mips,
+    risc_v,
+}
+
+// Enums can also be given functions
+const InstructionSet = enum {
+    ...
+    pub fn isRiscV(self: InstructionSet) bool {
+        return self == InstructionSet.risc_v;
+    }
+}
 ```
 
 ## Functions
