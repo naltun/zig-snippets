@@ -13,6 +13,6 @@ test "arrays" {
 
     const greet = [_]u8{ 'H', 'e', 'l', 'l', 'o' };
     const greet_str_literal = "Hello";
-    // mem.eql will compare to slices and return whether they are equal
+    // mem.eql will compare two slices and return whether they are equal
     expect(mem.eql(u8, &greet, greet_str_literal));
 }
