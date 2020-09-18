@@ -19,6 +19,7 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 
 1. [Introduction](#introduction)
 * [Main function](#main-function)
+* [Arrays](#arrays)
 * [Assignment](#assignment)
 * [Functions](#functions)
 
@@ -33,6 +34,22 @@ const std = @import("std");
 pub fn main() void {
     std.debug.print("Hello, {}!\n", .{"World"});
 }
+```
+
+## Arrays
+
+Here is how to write a basic array in Zig:
+```zig
+// Specify the length inside the square brackets
+const odd_nums = [5]i8{ 1, 3, 5, 7, 9 };
+
+// The length can also be inferred
+const even_nums = [_]i8{ 2, 4, 6, 8, 10 };
+
+// String literals are simply pointers to array literals
+const greet = "Hello!";
+const greet_arr_literal = [_]u8{ 'H', 'e', 'l', 'l', '0', '!' };
+
 ```
 
 ## Assignment
