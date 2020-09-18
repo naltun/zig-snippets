@@ -22,6 +22,8 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 * [Assignment](#assignment)
 * [Functions](#functions)
 * [Main function](#main-function)
+2. [Strings](#strings)
+* [Multi-line strings](#multi-line-strings)
 
 ## Introduction
 
@@ -71,5 +73,21 @@ const std = @import("std");
 pub fn main() void {
     std.debug.print("Hello, {}!\n", .{"World"});
 }
+```
+
+## Strings
+
+## Multi-line strings
+
+Here is how to write multi-line strings in Zig:
+```zig
+// Here is a multi-line string literal
+const hello_world_in_python =
+    \\def greet():
+    \\    print('Hello, World!')
+    \\
+    \\if __name__ == '__main__':
+    \\    greet()
+;
 ```
 
