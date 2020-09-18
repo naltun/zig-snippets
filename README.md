@@ -18,23 +18,12 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 # Table of Contents
 
 1. [Introduction](#introduction)
-* [Main function](#main-function)
 * [Arrays](#arrays)
 * [Assignment](#assignment)
 * [Functions](#functions)
+* [Main function](#main-function)
 
 ## Introduction
-
-## Main function
-
-Here is how the `main()` function is written in Zig:
-```zig
-const std = @import("std");
-
-pub fn main() void {
-    std.debug.print("Hello, {}!\n", .{"World"});
-}
-```
 
 ## Arrays
 
@@ -70,6 +59,17 @@ Here is how to write functions in Zig:
 ```zig
 fn add(x: i32, y: i32) i32 {
     return x + y;
+}
+```
+
+## Main function
+
+Here is how the `main()` function is written in Zig:
+```zig
+const std = @import("std");
+
+pub fn main() void {
+    std.debug.print("Hello, {}!\n", .{"World"});
 }
 ```
 
