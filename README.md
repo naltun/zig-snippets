@@ -19,6 +19,7 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 
 1. [Introduction](#introduction)
 * [Main function](#main-function)
+* [Assignment](#assignment)
 * [Functions](#functions)
 
 ## Introduction
@@ -32,6 +33,17 @@ const std = @import("std");
 pub fn main() void {
     std.debug.print("Hello, {}!\n", .{"World"});
 }
+```
+
+## Assignment
+
+Here is how to assign to variables in Zig:
+```zig
+// Mutable variable
+var age: i32 = 29;
+
+// Immutable variable
+const num_of_cores: i32 = 4;
 ```
 
 ## Functions
