@@ -17,11 +17,15 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 
 # Table of Contents
 
-1. [Main function](#main-function)
+1. [Introduction](#introduction)
+* [Main function](#main-function)
+* [Functions](#functions)
+
+## Introduction
 
 ## Main function
 
-Here is how the `main()` function is written in zig:
+Here is how the `main()` function is written in Zig:
 ```zig
 const std = @import("std");
 
@@ -29,3 +33,13 @@ pub fn main() void {
     std.debug.print("Hello, {}!\n", .{"World"});
 }
 ```
+
+## Functions
+
+Here is how to write functions in Zig:
+```zig
+fn add(x: i32, y: i32) i32 {
+    return x + y;
+}
+```
+
