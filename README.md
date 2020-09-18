@@ -28,6 +28,8 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 
 ## Introduction
 
+Introductory code snippets
+
 ## Arrays
 
 Here is how to write a basic array in Zig:
@@ -98,6 +100,8 @@ pub fn main() void {
 ```
 
 ## Strings
+
+String code snippsets
 
 ## Multi-line strings
 
