@@ -40,7 +40,8 @@ pub fn main() void {
 
 Here is how to write a basic array in Zig:
 ```zig
-// Specify the length inside the square brackets
+// Specify the length inside the square brackets, with the type after
+// Use {}s as the container (same as [] in Python, Ruby, etc.)
 const odd_nums = [5]i8{ 1, 3, 5, 7, 9 };
 
 // The length can also be inferred
