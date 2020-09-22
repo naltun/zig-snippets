@@ -23,7 +23,9 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 * [Enums](#enums)
 * [Functions](#functions)
 * [Main function](#main-function)
-2. [Strings](#strings)
+2. [Input/Output](#input-output)
+* [Standard Output](#stdout)
+3. [Strings](#strings)
 * [Multi-line strings](#multi-line-strings)
 
 ## Introduction
@@ -96,6 +98,22 @@ const std = @import("std");
 
 pub fn main() void {
     std.debug.print("Hello, {}!\n", .{"World"});
+}
+```
+
+## Input/Output
+
+## Standard Output
+
+Here is how to write to standard output in Zig:
+```zig
+const std = @import("std");
+
+// Because we are using the 'try' keyword, we have to prefix '!'
+// to the return type
+pub fn main() !void {
+    const stdout = std.io.getStdOut().outStream();
+    _ = try stdout.write("Hello, World!\n");
 }
 ```
 
