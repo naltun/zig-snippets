@@ -28,7 +28,7 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 2. [Input/Output](#io)
     * [Standard Output](#stdout)
 3. [Strings](#strings)
-    * [Multi-line strings](#multi-line-strings)
+    * [Multiline strings](#multiline-strings)
 
 ## Introduction
 
@@ -123,7 +123,7 @@ pub fn main() !void {
 
 String code snippsets
 
-### Multi-line strings
+### Multiline strings
 
 Here is how to write multi-line strings in Zig:
 ```zig
