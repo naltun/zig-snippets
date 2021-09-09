@@ -13,6 +13,8 @@ NOTE: Zig is not stable, and the compiler will implement breaking changes! If a 
 
 This document is proudly licensed under the terms of the Creative Commons **Attribution 4.0 International (CC BY 4.0)** license.
 
+All code in the `snippets/` directory is proudly licensed under the terms of the [Mozilla Public License v. 2.0](https://choosealicense.com/licenses/mpl-2.0/).
+
 For more information on the Free Culture Movement, please visit [Wikipedia](https://en.wikipedia.org/wiki/Free-culture_movement).
 
 # Table of Contents
