@@ -18,21 +18,21 @@ For more information on the Free Culture Movement, please visit [Wikipedia](http
 # Table of Contents
 
 1. [Introduction](#introduction)
-* [Arrays](#arrays)
-* [Assignment](#assignment)
-* [Enums](#enums)
-* [Functions](#functions)
-* [Main function](#main-function)
-2. [Input/Output](#input-output)
-* [Standard Output](#stdout)
+    * [Arrays](#arrays)
+    * [Assignment](#assignment)
+    * [Enums](#enums)
+    * [Functions](#functions)
+    * [Main function](#main-function)
+2. [Input/Output](#io)
+    * [Standard Output](#stdout)
 3. [Strings](#strings)
-* [Multi-line strings](#multi-line-strings)
+    * [Multi-line strings](#multi-line-strings)
 
 ## Introduction
 
 Introductory code snippets
 
-## Arrays
+### Arrays
 
 Here is how to write a basic array in Zig:
 ```zig
@@ -49,7 +49,7 @@ const greet_arr_literal = [_]u8{ 'H', 'e', 'l', 'l', '0', '!' };
 
 ```
 
-## Assignment
+### Assignment
 
 Here is how to assign to variables in Zig:
 ```zig
@@ -60,7 +60,7 @@ var age: i32 = 29;
 const num_of_cores: i32 = 4;
 ```
 
-## Enums
+### Enums
 
 Here is how to write enums in Zig:
 ```zig
@@ -81,7 +81,7 @@ const InstructionSet = enum {
 }
 ```
 
-## Functions
+### Functions
 
 Here is how to write functions in Zig:
 ```zig
@@ -90,7 +90,7 @@ fn add(x: i32, y: i32) i32 {
 }
 ```
 
-## Main function
+### Main function
 
 Here is how the `main()` function is written in Zig:
 ```zig
@@ -101,9 +101,9 @@ pub fn main() void {
 }
 ```
 
-## Input/Output
+## IO
 
-## Standard Output
+### Standard Output
 
 Here is how to write to standard output in Zig:
 ```zig
@@ -121,7 +121,7 @@ pub fn main() !void {
 
 String code snippsets
 
-## Multi-line strings
+### Multi-line strings
 
 Here is how to write multi-line strings in Zig:
 ```zig
